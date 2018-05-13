@@ -60,15 +60,15 @@ public class MyLinkedList<E> {
     public E extractEnd() {
         E data = null;
         Node<E> current = head;
-        while(current.getNext() != null) {
-            if(current.getNext().getNext() == null) {
-                data = current.getNext().getInfo();
-                tail = current;
-                tail.setNext(null);
-                break;
+        Node<E> prevNode = null;
+        if (tail != null) {
+            data = tail.getInfo();
+            while (!current.equals(tail)) {
+                prevNode = current;
+                current = current.getNext();
             }
-            current = current.getNext();
         }
+        tail = prevNode;
         return data;
     }
 

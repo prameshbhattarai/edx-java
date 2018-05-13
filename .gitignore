@@ -1,0 +1,5 @@
+# Editors
+*.idea/
+
+# output files
+*out/

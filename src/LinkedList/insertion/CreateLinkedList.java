@@ -1,4 +1,4 @@
-package LinkedList.insertion;
+package linkedList.insertion;
 
 public class CreateLinkedList {
 

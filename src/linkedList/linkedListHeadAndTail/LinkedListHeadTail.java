@@ -1,4 +1,4 @@
-package LinkedList.linkedListHeadAndTail;
+package linkedList.linkedListHeadAndTail;
 
 public class LinkedListHeadTail {
 

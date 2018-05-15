@@ -1,6 +1,4 @@
-package LinkedList.sorting;
-
-import java.util.LinkedList;
+package linkedList.sorting;
 
 public class MyLinkedList<E extends Comparable<E>> {
     // Notice that stating E extends Comparable<E> is needed, as we should use

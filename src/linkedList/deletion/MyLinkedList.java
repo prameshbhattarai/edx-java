@@ -1,4 +1,4 @@
-package LinkedList.deletion;
+package linkedList.deletion;
 
 public class MyLinkedList<E> {
 

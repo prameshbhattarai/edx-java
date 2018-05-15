@@ -1,4 +1,4 @@
-package LinkedList.sorting;
+package linkedList.sorting;
 
 public class SortedInsertionLinkedList {
 

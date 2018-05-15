@@ -1,6 +1,7 @@
-package LinkedList.linkedListHeadAndTail;
+package linkedList.insertion;
 
 public class Node<E> {
+
     private E info;
     private Node<E> next;
 
@@ -10,7 +11,6 @@ public class Node<E> {
 
     public Node(E info) {
         this.info = info;
-        this.next = null;
     }
 
     public Node(E info, Node<E> next) {
@@ -27,12 +27,10 @@ public class Node<E> {
     }
 
     public Node<E> getNext() {
-        return this.next;
+        return next;
     }
 
     public void setNext(Node<E> next) {
         this.next = next;
     }
-
 }
-

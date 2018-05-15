@@ -1,7 +1,6 @@
-package LinkedList.deletion;
+package linkedList.linkedListHeadAndTail;
 
 public class Node<E> {
-
     private E info;
     private Node<E> next;
 
@@ -34,4 +33,6 @@ public class Node<E> {
     public void setNext(Node<E> next) {
         this.next = next;
     }
+
 }
+

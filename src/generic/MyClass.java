@@ -16,8 +16,11 @@ public class MyClass<E> {
         this.attribute = value;
     }
 
-    public boolean equal(MyClass<E> other) {
-        return other.get().equals(this.attribute);
+    public boolean equals(Object other) {
+        if(other instanceof MyClass<?>) {
+            return this.get().equals(((MyClass) other).get());
+        }
+        return false;
     }
 
 }

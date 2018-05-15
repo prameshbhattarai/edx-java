@@ -1,4 +1,4 @@
-package LinkedList.insertion;
+package linkedList.deletion;
 
 public class Node<E> {
 
@@ -11,6 +11,7 @@ public class Node<E> {
 
     public Node(E info) {
         this.info = info;
+        this.next = null;
     }
 
     public Node(E info, Node<E> next) {
@@ -27,7 +28,7 @@ public class Node<E> {
     }
 
     public Node<E> getNext() {
-        return next;
+        return this.next;
     }
 
     public void setNext(Node<E> next) {

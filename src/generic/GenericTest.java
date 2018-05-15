@@ -21,7 +21,7 @@ public class GenericTest {
         System.out.println(second.get());
 
         // If no equals method is provided,
-        // equals is the one imlpemented by the class Object
+        // equals is the one implemented by the class Object
         // that compares references
         // So, you should override the equals method for this class
         if (one.equals(two))

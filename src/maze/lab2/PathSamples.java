@@ -1,4 +1,4 @@
-package maze.lab1;
+package maze.lab2;
 
 public final class PathSamples {
 
@@ -7,7 +7,7 @@ public final class PathSamples {
             Movement.DOWN,
             Movement.RIGHT,
             Movement.DOWN, Movement.DOWN, Movement.DOWN, Movement.DOWN, Movement.DOWN, Movement.DOWN, Movement.DOWN,
-            Movement.RIGHT, Movement.RIGHT, Movement.RIGHT, Movement.RIGHT, Movement.RIGHT, Movement.RIGHT, Movement.RIGHT
+            Movement.RIGHT,Movement.RIGHT,Movement.RIGHT,Movement.RIGHT,Movement.RIGHT,Movement.RIGHT,Movement.RIGHT
     };
 
     // Use with MazeSample 1
